@@ -15,5 +15,5 @@ scrape_configs:
           - localhost
         labels:
           job: odoo
-          host: ${HOSTNAME}
-          __path__: /var/log/odoo/server.log
+          host: app_kn
+          __path__: /data/app_kn/etc/server.log
