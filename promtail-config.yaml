@@ -16,4 +16,4 @@ scrape_configs:
         labels:
           job: app_kn
           host: 156
-          __path__: /data/app_kn/etc/server.log
+          __path__: /var/log/odoo/server.log
